@@ -53,8 +53,8 @@ const RecipeDetail = () => {
     <div
       className={`p-6 rounded-lg shadow-md text-center relative z-10 ${
         theme === "dark"
-          ? "bg-gray-800 text-gray-300"
-          : "bg-yellow-100 text-gray-900"
+          ? "bg-gray-900 text-gray-300"
+          : "bg-gray-100 text-gray-900"
       }`}
     >
       <h2 className="text-3xl font-bold mb-4">{recipe.strMeal}</h2>

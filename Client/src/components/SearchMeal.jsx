@@ -132,7 +132,6 @@ const SearchMeal = () => {
                     {meal.strCategory}
                   </p>
                   <div className="mt-2 text-sm">
-                    <h3 className="font-semibold mb-1">Ingredients:</h3>
                     <div className="flex flex-wrap gap-1">
                       {ingredients.map((ingredient, index) => (
                         <span

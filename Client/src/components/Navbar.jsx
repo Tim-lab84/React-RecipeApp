@@ -24,7 +24,7 @@ const Navbar = () => {
         </button>
         <ThemeToggle /> {/* Add ThemeToggle button here */}
         <div className="text-sm text-gray-500 dark:text-gray-300">
-          Made with ❤️, our teacher Omar Dieh, and GPT 😊
+          Made with ❤️ and our teacher Omar Dieh
         </div>
       </div>
     </nav>

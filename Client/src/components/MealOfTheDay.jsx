@@ -33,7 +33,7 @@ const MealOfTheDay = () => {
   }
 
   return (
-    <div className="bg-yellow-100 p-6 rounded-lg shadow-md text-center relative z-10 dark:bg-gray-800 dark:text-gray-200">
+    <div className="bg-gray-100 dark:bg-gray-900 p-6 rounded-lg shadow-md text-center relative z-10">
       <h2 className="text-xl font-bold mb-2 dark:text-gray-200">
         Meal of the Day: {meal.strMeal}
       </h2>
